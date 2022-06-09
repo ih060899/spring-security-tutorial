@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="add OAuth Authorization Server">
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/config/DefaultSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="add OAuth Authorization configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/OauthAuthorizationServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/OauthAuthorizationServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -93,7 +85,20 @@
       <recent name="com.imran.Oauthserver.entity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpringSecurityClientApplication">
+    <configuration name="OauthAuthorizationServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imran.Oauthserver.OauthAuthorizationServerApplication" />
+      <module name="Oauth-authorization-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imran.Oauthserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringSecurityClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imran.client.SpringSecurityClientApplication" />
       <module name="spring-security-client" />
@@ -110,6 +115,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpringSecurityClientApplication" />
+        <item itemvalue="Application.OauthAuthorizationServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654763662274</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add OAuth Authorization configuration">
+      <created>1654770866240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654770866240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +198,7 @@
     <MESSAGE value="password reset functionality" />
     <MESSAGE value="password change functionality" />
     <MESSAGE value="add OAuth Authorization Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add OAuth Authorization Server" />
+    <MESSAGE value="add OAuth Authorization configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add OAuth Authorization configuration" />
   </component>
 </project>

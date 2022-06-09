@@ -23,16 +23,18 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         String username = authentication.getName();
         String password = authentication.getCredentials().toString();
-        UserDetails user = customUserDetailsService.loadUserByUsername(username);
-        return checkPassword(user, password);
+        UserDetails user= customUserDetailsService.loadUserByUsername(username);
+        return checkPassword(user,password);
     }
 
     private Authentication checkPassword(UserDetails user, String rawPassword) {
-        if(passwordEncoder.matches(user.getPassword(), rawPassword)){
-            return new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword(), user.getAuthorities());
+        if(passwordEncoder.matches(rawPassword, user.getPassword())) {
+            return new UsernamePasswordAuthenticationToken(user.getUsername(),
+                    user.getPassword(),
+                    user.getAuthorities());
         }
-        else{
-            throw  new BadCredentialsException("Bad Credentials");
+        else {
+            throw new BadCredentialsException("Bad Credentials");
         }
     }
 
