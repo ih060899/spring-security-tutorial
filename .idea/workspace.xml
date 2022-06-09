@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="password reset functionality">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="password change functionality" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,14 +61,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="SpringSecurityClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imran.client.SpringSecurityClientApplication" />
@@ -131,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654755441929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="password change functionality">
+      <created>1654762827418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654762827418</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +152,7 @@
     <MESSAGE value="add user registration code" />
     <MESSAGE value="add user registration funtionality send token , verify token, resend token" />
     <MESSAGE value="password reset functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="password reset functionality" />
+    <MESSAGE value="password change functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="password change functionality" />
   </component>
 </project>
