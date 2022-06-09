@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="add spring security client">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="add user registration code">
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/entity/VerificationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/event/RegistrationCompleteEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/event/listener/RegistrationCompleteEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/repository/VerificationTokenRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +47,9 @@
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,7 +76,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RunManager">
@@ -109,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654685895477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add user registration code">
+      <created>1654688073831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654688073831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add spring security client" />
-    <option name="LAST_COMMIT_MESSAGE" value="add spring security client" />
+    <MESSAGE value="add user registration code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user registration code" />
   </component>
 </project>
