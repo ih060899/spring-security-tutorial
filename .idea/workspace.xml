@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="password change functionality" />
+    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="add OAuth Authorization Server">
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/config/DefaultSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,6 +87,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imran.Oauthserver.repository" />
+      <recent name="com.imran.Oauthserver.entity" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SpringSecurityClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imran.client.SpringSecurityClientApplication" />
@@ -133,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654762827418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add OAuth Authorization Server">
+      <created>1654763662274</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654763662274</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +184,7 @@
     <MESSAGE value="add user registration funtionality send token , verify token, resend token" />
     <MESSAGE value="password reset functionality" />
     <MESSAGE value="password change functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="password change functionality" />
+    <MESSAGE value="add OAuth Authorization Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add OAuth Authorization Server" />
   </component>
 </project>
