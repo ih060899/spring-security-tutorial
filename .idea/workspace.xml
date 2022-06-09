@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="add OAuth Authorization configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/OauthAuthorizationServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/OauthAuthorizationServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/imran/Oauthserver/service/CustomAuthenticationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="configure client for OAuth" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654770866240</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="configure client for OAuth">
+      <created>1654772377392</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654772377392</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +199,7 @@
     <MESSAGE value="password change functionality" />
     <MESSAGE value="add OAuth Authorization Server" />
     <MESSAGE value="add OAuth Authorization configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add OAuth Authorization configuration" />
+    <MESSAGE value="configure client for OAuth" />
+    <option name="LAST_COMMIT_MESSAGE" value="configure client for OAuth" />
   </component>
 </project>
