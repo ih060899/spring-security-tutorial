@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="configure client for OAuth" />
+    <list default="true" id="da4cd596-8e3a-4a28-86b9-5573225a39e0" name="Changes" comment="add OAuth resource server">
+      <change afterPath="$PROJECT_DIR$/Oauth-resource-server/src/main/java/com/imran/Oauthresourceserver/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-resource-server/src/main/java/com/imran/Oauthresourceserver/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/config/WebClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-resource-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-resource-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/imran/client/controller/HelloController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,13 +88,26 @@
       <recent name="com.imran.Oauthserver.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringSecurityClientApplication">
+  <component name="RunManager" selected="Application.OauthResourceServerApplication">
     <configuration name="OauthAuthorizationServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imran.Oauthserver.OauthAuthorizationServerApplication" />
       <module name="Oauth-authorization-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.imran.Oauthserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthResourceServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imran.Oauthresourceserver.OauthResourceServerApplication" />
+      <module name="Oauth-resource-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imran.Oauthresourceserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OauthResourceServerApplication" />
         <item itemvalue="Application.SpringSecurityClientApplication" />
         <item itemvalue="Application.OauthAuthorizationServerApplication" />
       </list>
@@ -177,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654772377392</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add OAuth resource server">
+      <created>1654772766633</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654772766633</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +231,7 @@
     <MESSAGE value="add OAuth Authorization Server" />
     <MESSAGE value="add OAuth Authorization configuration" />
     <MESSAGE value="configure client for OAuth" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure client for OAuth" />
+    <MESSAGE value="add OAuth resource server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add OAuth resource server" />
   </component>
 </project>
